@@ -27,6 +27,11 @@
 // });
 
 /* scroll */
-$("#wrapper").scroll(function(){
-    console.log($(this).scrollTop());
+// $("#wrapper").scroll(function(){
+//     console.log($(this).scrollTop());
+// });
+/* focus*/
+$("#input-box").focus(function(){
+    
+    $(this).css('color','red');
 });
