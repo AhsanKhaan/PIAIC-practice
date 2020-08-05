@@ -31,23 +31,30 @@
 //     console.log($(this).scrollTop());
 // });
 /* focus*/
-$("#input-box").focus(function(){
+// $("#input-box").focus(function(){
     
-    $(this).css('color','red');
-});
+//     $(this).css('color','red');
+// });
 
 /* Promise*/
 //jQuery is alias of $
-jQuery.when($.ready).then(function(){});
+// jQuery.when($.ready).then(function(){});
 
-/*Document load hony se pehly script run karny k liye*/ 
-/*jitni ziad bar true likhengy utni hi bar false likhengy*/ 
-$.holdReady( true );
 
-/* script start karny k liye use hoti hai */
-$.getScript("test.js",function(){
-    $.holdReady( false );
-});
-$(function(){
-    console.log("Document is loaded");
+// /*Document load hony se pehly script run karny k liye*/ 
+// /*jitni ziad bar true likhengy utni hi bar false likhengy*/ 
+// $.holdReady( true );
+
+// /* script start karny k liye use hoti hai */
+// $.getScript("test.js",function(){
+//     $.holdReady( false );
+// });
+// $(function(){
+//     console.log("Document is loaded");
+// });
+
+$("#print-date").on('click',function(){
+console.log(Date());
+//Event ko detatched karny k liye use hota hai
+$("#print-date").off('click');
 });
