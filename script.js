@@ -25,3 +25,8 @@
 //     console.log("Width" + width);
 //     console.log("Height" + height);
 // });
+
+/* scroll */
+$("#wrapper").scroll(function(){
+    console.log($(this).scrollTop());
+});
