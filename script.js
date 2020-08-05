@@ -67,9 +67,16 @@
 //     console.log(content);
 //     event.stopPropagation();
 // })
-$('.box').on('click',{name:"Ahsan Khan"},function(event){
-     var content=$(this).text();
-     console.log(content);
-   //  event.stopPropagation();
-     cosole.log(event.data.name);
+// $('.box').on('click',{name:"Ahsan Khan"},function(event){
+//      var content=$(this).text();
+//      console.log(content);
+//     event.stopPropagation();
+//      cosole.log(event.data.name);
+// });
+
+/* trigger*/
+//trigger is used to forcefully occur an event
+$('#btn').on('click',function(){
+console.log("You just clicked ME");
 });
+$('#btn').trigger('click');

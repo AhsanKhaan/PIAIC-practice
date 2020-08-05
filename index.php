@@ -32,13 +32,14 @@
 <input type="button" id="print-date" value="Print Date"> -->
 
 
-<div id="wrapper">
-<?php for($i=1;$i<100;$i++):?>
-    <div class="box">POst<?=$i;?></div>
-<?php endfor;?>
+<!-- <div id="wrapper">
+<?php //for($i=1;$i<100;$i++):?>
+    <div class="box">POst
+        <?=$var;//$i;?></div> 
+<?php //endfor;?>
 
-</div>
-
+</div> -->
+<input type="button" id="btn" value="click me"><br/>
 <script src="jquery-3.5.1.min.js"></script>
     <script src="script.js"></script>
 </body>
