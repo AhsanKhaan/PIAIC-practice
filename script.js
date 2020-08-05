@@ -39,3 +39,15 @@ $("#input-box").focus(function(){
 /* Promise*/
 //jQuery is alias of $
 jQuery.when($.ready).then(function(){});
+
+/*Document load hony se pehly script run karny k liye*/ 
+/*jitni ziad bar true likhengy utni hi bar false likhengy*/ 
+$.holdReady( true );
+
+/* script start karny k liye use hoti hai */
+$.getScript("test.js",function(){
+    $.holdReady( false );
+});
+$(function(){
+    console.log("Document is loaded");
+});
