@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JQUERY</title>
-    <!-- <style>
-        .box{height: 1000px;margin:5px}
-        .one{background-color: wheat;}
+    <style>
+        .box{border:solid;margin:5px}
+        /* .one{background-color: wheat;}
         .two{background-color: green;}
         .three{background-color: pink;}
-        .four{background-color:lightblue;}
-    </style> -->
+        .four{background-color:lightblue;} */
+    </style>
 </head>
 <body>
     
@@ -28,14 +28,16 @@
     <div class="box four"></div>
 </div> -->
 
-<input type="text" name="" id="input-box">
-<input type="button" id="print-date" value="Print Date">
+<!-- <input type="text" name="" id="input-box">
+<input type="button" id="print-date" value="Print Date"> -->
 
 
+<div id="wrapper">
+<?php for($i=1;$i<1000;$i++):?>
+    <div class="box">POst<?=$i;?></div>
+<?php endfor;?>
 
-
-
-
+</div>
 
 <script src="jquery-3.5.1.min.js"></script>
     <script src="script.js"></script>

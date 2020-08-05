@@ -60,3 +60,9 @@
 //});
 //occurs event at once
 //$().one();
+//event delegation
+$("#wrapper").on('click','.box',function(event){
+    var content=$(this).text();
+    console.log(content);
+    event.stopPropagation();
+})
