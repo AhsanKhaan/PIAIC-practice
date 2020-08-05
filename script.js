@@ -35,3 +35,7 @@ $("#input-box").focus(function(){
     
     $(this).css('color','red');
 });
+
+/* Promise*/
+//jQuery is alias of $
+jQuery.when($.ready).then(function(){});
