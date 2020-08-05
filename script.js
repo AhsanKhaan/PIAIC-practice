@@ -53,8 +53,10 @@
 //     console.log("Document is loaded");
 // });
 
-$("#print-date").on('click',function(){
-console.log(Date());
+//$("#print-date").on('click',function(){
+//console.log(Date());
 //Event ko detatched karny k liye use hota hai
-$("#print-date").off('click');
-});
+//$("#print-date").off('click');
+//});
+//occurs event at once
+//$().one();
