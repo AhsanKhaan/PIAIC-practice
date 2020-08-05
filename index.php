@@ -33,7 +33,7 @@
 
 
 <div id="wrapper">
-<?php for($i=1;$i<1000000;$i++):?>
+<?php for($i=1;$i<100;$i++):?>
     <div class="box">POst<?=$i;?></div>
 <?php endfor;?>
 

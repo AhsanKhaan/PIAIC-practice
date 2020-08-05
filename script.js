@@ -67,3 +67,9 @@
 //     console.log(content);
 //     event.stopPropagation();
 // })
+$('.box').on('click',{name:"Ahsan Khan"},function(event){
+     var content=$(this).text();
+     console.log(content);
+   //  event.stopPropagation();
+     cosole.log(event.data.name);
+});
