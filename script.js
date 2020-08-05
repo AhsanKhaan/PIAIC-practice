@@ -11,8 +11,17 @@
 //     $("#output2").html("key press"+value); 
 //     console.log("Key press"+event.which);
 //  });
- //key press event delete k saTh trigger nhi hotaa 
- //is lye key down use hota hai
- //KEY DOWN ALPHA NUMERIC K ELAWA BHI TRIGGER KARTA HAI
- //JAB K KEY PRESS SIRF ALPHA NUMERIC KARTA HAI
+//key press event delete k saTh trigger nhi hotaa 
+//is lye key down use hota hai
+//KEY DOWN ALPHA NUMERIC K ELAWA BHI TRIGGER KARTA HAI
+//JAB K KEY PRESS SIRF ALPHA NUMERIC KARTA HAI
 //  KEY Press vs key down
+
+/* Resize */
+// $(window).resize(function () {
+//     alert("window resized");
+//     var width = $(this).width();
+//     var height = $(this).height();
+//     console.log("Width" + width);
+//     console.log("Height" + height);
+// });
