@@ -65,7 +65,8 @@
 
 <!-- changing box position on cursor movement -->
 <!-- <div class="box"></div> -->
-
+<!-- <input type="text"  id="input">
+<button id="send-btn">Send</button> -->
 
 <script src="jquery-3.5.1.min.js"></script>
     <script src="script.js"></script>

@@ -133,3 +133,8 @@ udhar bubbling hogi jesy #btn2 baaqi jagaa nhi hogi */
 
 //     });
 // });
+// $("#send-btn").on('click',function(){
+//     var text=$("#input").val();
+//     //$("<p>"+text +"</p>").insertAfter('#send-btn');
+//     $("body").append("<p>"+text +"</p>");
+// });
