@@ -103,20 +103,22 @@ udhar bubbling hogi jesy #btn2 baaqi jagaa nhi hogi */
 //     $('.box').triggerHandler('click');
 //     console.log("TriggerHandler()");
 // });
-$('#body').click(function(){
-    console.log("body");
-});
-$('#form').on('submit',function(event){
-    var content=$(this).text();
-    console.log(content);
+// $('#body').click(function(){
+//     console.log("body");
+// });
+// $('#form').on('submit',function(event){
+//     var content=$(this).text();
+//     console.log(content);
     
-});
+// });
 
-$('#btn1').click(function(){
-    $('#form').trigger('submit');
-    console.log("Trigger()");
-});
-$('#btn2').click(function(){
-    $('#form').triggerHandler('submit');
-    console.log("TriggerHandler()");
-});
+// $('#btn1').click(function(){
+//     $('#form').trigger('submit');
+//     console.log("Trigger()");
+// });
+// $('#btn2').click(function(){
+//     $('#form').triggerHandler('submit');
+//     console.log("TriggerHandler()");
+// });
+//newfunction that use scope as object and manupulate it
+//$.proxy(function,scope)

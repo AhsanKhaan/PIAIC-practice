@@ -40,21 +40,27 @@
 
 </div> -->
 <!-- <input type="button" id="btn" value="click me"><br/> -->
-
-<button id="btn1">.trigger()</button>
-<button id="btn2">.triggerHandler()</button>
-<?php if(isset($_POST["fullname"])):?>
+<!-- Trigger vs trigger handler -->
+<!-- <button id="btn1">.trigger()</button> -->
+<!-- <button id="btn2">.triggerHandler()</button> -->
+<?php $a;//if(isset($_POST["fullname"])):?>
 <pre>
-   <?php  print_r($_POST);?>
+   <?php $a; //print_r($_POST);?>
 </pre>
-<?php endif;?>
+<?php $a; //endif;?>
 <?php $p;// for($i=1;$i<3;$i++):?>
 <!-- <div class="box">BOX<?= $p;//$i?></div> -->
 <?php $p;// endfor ?>
-<form action="" method="post" id="form">
+<!-- <form action="" method="post" id="form">
 <input type="text" name="fullname" id="name">
 <input type="submit" value="submit">
-</form>
+</form> -->
+
+
+
+
+
+
 <script src="jquery-3.5.1.min.js"></script>
     <script src="script.js"></script>
 </body>
