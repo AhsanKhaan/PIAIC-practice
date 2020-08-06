@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JQUERY</title>
     <style>
-        .box{border:solid;margin:5px}
+        /* .box{
+            width:50px;
+            height:50px;
+            background-color:red;
+            position:absolute;
+        }
+        body{height:100vh;} */
         /* .one{background-color: wheat;}
         .two{background-color: green;}
         .three{background-color: pink;}
@@ -57,8 +63,8 @@
 </form> -->
 
 
-
-
+<!-- changing box position on cursor movement -->
+<!-- <div class="box"></div> -->
 
 
 <script src="jquery-3.5.1.min.js"></script>

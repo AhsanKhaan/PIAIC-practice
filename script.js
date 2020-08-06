@@ -122,3 +122,14 @@ udhar bubbling hogi jesy #btn2 baaqi jagaa nhi hogi */
 // });
 //newfunction that use scope as object and manupulate it
 //$.proxy(function,scope)
+
+// /*Changing postion on mousemove */
+// $('body').on("mousemove",function( event ){
+//     var x=event.pageX;
+//     var y=event.pageY;
+//     $('.box').css({
+//         left:x-20,
+//         top:y-20
+
+//     });
+// });
