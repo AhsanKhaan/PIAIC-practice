@@ -149,3 +149,12 @@ $("#btn2").on('click',function(){
 //$(selector).attr('attr-name',attr-value);
 //removing an attribute
 //$(selector).removeAttr('attr-name');
+
+
+/*property adding removing and getting property*/
+// getting property
+//$(selector).prop()
+//seting property
+//$(selector).prop('property-name','property-value')
+//removing property
+//$(selector).removeProp()
