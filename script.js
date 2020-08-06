@@ -138,9 +138,14 @@ udhar bubbling hogi jesy #btn2 baaqi jagaa nhi hogi */
 //     //$("<p>"+text +"</p>").insertAfter('#send-btn');
 //     $("body").append("<p>"+text +"</p>");
 // });
+//for add or remove class class should not be null
 $("#btn1").on('click',function(){
     $("#mydiv").addClass("green");
 });
 $("#btn2").on('click',function(){
     $("#mydiv").removeClass("green");
 });
+//adding an attribute
+//$(selector).attr('attr-name',attr-value);
+//removing an attribute
+//$(selector).removeAttr('attr-name');
