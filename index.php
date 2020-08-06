@@ -16,10 +16,15 @@
         .two{background-color: green;}
         .three{background-color: pink;}
         .four{background-color:lightblue;} */
-        .green{
+        /* .green{
             color:green;
             border:solid green 3px;
             font-size:3em
+        } */
+        .box{
+            height:200px;
+            width:200px;
+            background-color:lightblue;
         }
     </style>
 </head>
@@ -73,9 +78,13 @@
 <!-- <input type="text"  id="input">
 <button id="send-btn">Send</button> -->
 
-<button id="btn1">.addClass()</button>
+<!-- <button id="btn1">.addClass()</button>
 <button id="btn2">.removeclass()</button>
-<div id="mydiv" class="old-class">This is my div</div>
+<div id="mydiv" class="old-class">This is my div</div> -->
+
+
+<!-- height get and set -->
+<div class="box">This is my Box</div>
 <script src="jquery-3.5.1.min.js"></script>
     <script src="script.js"></script>
 </body>

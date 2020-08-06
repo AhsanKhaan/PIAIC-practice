@@ -158,3 +158,13 @@ $("#btn2").on('click',function(){
 //$(selector).prop('property-name','property-value')
 //removing property
 //$(selector).removeProp()
+/*Height and width settter and getter */
+/*same for width*/
+// $(function(){
+//     var box=$('.box');
+//     var height=box.height();
+//     console.log(height);
+//     box.height(400);
+//     console.log("set height"+box.height());
+    
+// });
