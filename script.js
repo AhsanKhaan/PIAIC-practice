@@ -188,3 +188,7 @@ $(document).ready(function(){
 //     top:50px,
 //     left:50px
 // });
+// $.cssNumber css kaa object hai jo styling karny py
+//px attached kardeta hai auto maticaally agr false assign huaa to
+// Ex: $.cssNumber.width= false to assign kardega 50 px agar hum width:50 dengy
+//Ex2:  $.cssNumber.opacity=true to px attach nhi hoga is mein
