@@ -148,3 +148,11 @@ udhar bubbling hogi jesy #btn2 baaqi jagaa nhi hogi */
 /* inner height and width*/
 // inner height and width mein padding bhi add hojaati hain
 //jitni width or height browswer ki run time hogi wohi show hogi
+// syntax: $().innerHeight();
+//inner=height=content+ padding
+/*outer width and height*/
+//syntax:$().outerHeight();
+//outer_height=content+padding+margin
+//syntax:$().outerHeight( true ); //by default false
+//outer_height=content+padding+margin+border
+
