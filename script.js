@@ -156,3 +156,27 @@ udhar bubbling hogi jesy #btn2 baaqi jagaa nhi hogi */
 //syntax:$().outerHeight( true ); //by default false
 //outer_height=content+padding+margin+border
 
+/*Scrolling */
+//().scrollLeft();
+//().scrollTop(param);
+//param: is a parameter for starting position of scroll by deafult ts zero
+$(document).ready(function(){
+   $('.box').scroll(function(){
+    var scrollleft=$('.box').scrollLeft();
+    var scrollTop=$('.box').scrollTop();
+    console.log(scrollleft);
+    console.log("Scroll Top:"+scrollTop);
+    if(scrollleft>50){
+        $('.box').css('background','pink');
+    }else{
+        $('.box').css('background','wheat');
+    }
+    if(Math.ceil(scrollTop)%10==2){
+        $('.box').css('color','red');
+        $('.box').css('fontweight','200');
+    }else{
+        $('.box').css('color','blue');
+    }
+   });
+
+});
