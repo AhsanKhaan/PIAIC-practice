@@ -138,9 +138,13 @@ udhar bubbling hogi jesy #btn2 baaqi jagaa nhi hogi */
 //     //$("<p>"+text +"</p>").insertAfter('#send-btn');
 //     $("body").append("<p>"+text +"</p>");
 // });
-$("#btn1").on('click',function(){
-    $("#mydiv").addClass("green");
-});
-$("#btn2").on('click',function(){
-    $("#mydiv").removeClass("green");
-});
+/*add or remove class */
+// $("#btn1").on('click',function(){
+//     $("#mydiv").addClass("green");
+// });
+// $("#btn2").on('click',function(){
+//     $("#mydiv").removeClass("green");
+// });
+/* inner height and width*/
+// inner height and width mein padding bhi add hojaati hain
+//jitni width or height browswer ki run time hogi wohi show hogi

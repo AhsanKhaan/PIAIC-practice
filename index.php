@@ -16,11 +16,11 @@
         .two{background-color: green;}
         .three{background-color: pink;}
         .four{background-color:lightblue;} */
-        .green{
+        /* .green{
             color:green;
             border:solid green 3px;
             font-size:3em
-        }
+        } */
     </style>
 </head>
 <body id="body">
@@ -72,10 +72,16 @@
 <!-- <div class="box"></div> -->
 <!-- <input type="text"  id="input">
 <button id="send-btn">Send</button> -->
-
-<button id="btn1">.addClass()</button>
+<!-- Add or remove class -->
+<!-- <button id="btn1">.addClass()</button>
 <button id="btn2">.removeclass()</button>
-<div id="mydiv" class="old-class">This is my div</div>
+<div id="mydiv" class="old-class">This is my div</div> -->
+
+
+
+
+
+
 <script src="jquery-3.5.1.min.js"></script>
     <script src="script.js"></script>
 </body>
