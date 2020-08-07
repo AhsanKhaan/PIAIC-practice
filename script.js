@@ -180,3 +180,11 @@ $(document).ready(function(){
    });
 
 });
+//offset is relative to document object
+//wheras position is relative to it's parent
+//it gives position of container
+// gettter:$(selector).offset();
+//setter : $(selector).offset({
+//     top:50px,
+//     left:50px
+// });
