@@ -21,7 +21,7 @@
             border:solid green 3px;
             font-size:3em
         } */
-        .box{
+        /* .box{
             width:200px;
             height:100px;
             overflow:auto;
@@ -30,7 +30,7 @@
         }
         .box>p{
             width:150%;
-        }
+        } */
     </style>
 </head>
 <body id="body">
@@ -89,7 +89,7 @@
 
 
 
-<div class="box">
+<!-- <div class="box">
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu ullamcorper risus. Proin congue pulvinar ante eget maximus. Morbi ullamcorper dictum nulla varius finibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris scelerisque tortor ut eros venenatis hendrerit. Vestibulum tortor metus, vestibulum nec tortor non, luctus convallis enim. Aenean fermentum ante tortor, eu finibus orci malesuada sed.
 
@@ -101,9 +101,12 @@ Sed malesuada placerat turpis, porttitor mollis orci tincidunt volutpat. Morbi i
 
 Praesent vestibulum pellentesque mollis. Cras ac egestas nisi. Phasellus viverra iaculis massa varius iaculis. Suspendisse eu lorem at nulla porta viverra vitae eu justo. Curabitur tristique dolor eu dui fringilla, ut sagittis tortor venenatis. Ut pulvinar tortor quis dolor pulvinar, quis dignissim lectus auctor. Suspendisse hendrerit quam sit amet nisi ornare, non lobortis nunc pretium. Vestibulum egestas, ex fermentum feugiat gravida, nibh eros malesuada dui, quis consectetur orci mi quis quam. Aliquam gravida placerat cursus. Curabitur tempor ligula sed sem bibendum, sed venenatis mauris volutpat. Aliquam porttitor, tellus non interdum facilisis, ex sem convallis dolor, ullamcorper sodales lectus leo vitae neque. Nullam eu libero quis augue luctus dictum. Suspendisse lectus leo, accumsan at efficitur quis, iaculis vitae massa. Aenean sagittis sem ac turpis consectetur pellentesque quis nec risus.
 </p>
+</div> -->
+
+<div id="wrapper">
+<div class="box"></div>
+<div class="box-one">Box one</div>
 </div>
-
-
 <script src="jquery-3.5.1.min.js"></script>
     <script src="script.js"></script>
 </body>

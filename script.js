@@ -192,3 +192,6 @@ $(document).ready(function(){
 //px attached kardeta hai auto maticaally agr false assign huaa to
 // Ex: $.cssNumber.width= false to assign kardega 50 px agar hum width:50 dengy
 //Ex2:  $.cssNumber.opacity=true to px attach nhi hoga is mein
+/*escape selector*/
+// Syntax:$().escapeSelector()
+//Use: jab selector mein . or # aayega to usey . se \. mein replace kardegaa
