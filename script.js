@@ -222,3 +222,9 @@ console.log($('.box').data());
 //with param specified object or property is deleted
 $('.box').removeData("fname");
 console.log($('.box').data());
+
+//var elementReference=$('.box)
+//$().data(elementReference,key,value)
+//$().data(elementReference,key)
+//Note: element reference direct nhi aayega
+//Eg:XXX $().data($('.box'),key,value)
