@@ -195,3 +195,21 @@ $(document).ready(function(){
 /*escape selector*/
 // Syntax:$().escapeSelector()
 //Use: jab selector mein . or # aayega to usey . se \. mein replace kardegaa
+
+//css hooks
+(function($){
+    var directions=['top','right','bottom','left'];
+
+    //css hooks 
+    $.cssHooks.myPositioning={
+        get:function(){},
+        set:function(element,value){
+            var v=value.split(" ");
+            element.style.directions[0]=v[0];
+            element.style.directions[1]=v[1];
+            element.style.directions[2]=v[2];
+            element.style.directions[3]=v[3];
+            console.log(v);
+        }
+    }
+})(jQuery);
