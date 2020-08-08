@@ -104,7 +104,7 @@ Praesent vestibulum pellentesque mollis. Cras ac egestas nisi. Phasellus viverra
 </div> -->
 
 <div id="wrapper">
-<div class="box"></div>
+<div class="box">Box</div>
 <div class="box-one">Box one</div>
 </div>
 <script src="jquery-3.5.1.min.js"></script>

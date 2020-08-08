@@ -213,3 +213,10 @@ $(document).ready(function(){
         }
     }
 })(jQuery);
+//cerating data using .data()
+$('.box').data('fname','ahsan');
+$('.box').data('person',{"fname":'AK','lastname':'Afaq',age:12});
+console.log($('.box').data());
+//removind data
+$('.box').removeData("fname");
+console.log($('.box').data());
