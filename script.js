@@ -217,6 +217,8 @@ $(document).ready(function(){
 $('.box').data('fname','ahsan');
 $('.box').data('person',{"fname":'AK','lastname':'Afaq',age:12});
 console.log($('.box').data());
-//removind data
+//removing data $(selector).data(param:optional) 
+//without param all data deleted
+//with param specified object or property is deleted
 $('.box').removeData("fname");
 console.log($('.box').data());
